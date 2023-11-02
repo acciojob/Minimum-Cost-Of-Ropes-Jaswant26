@@ -7,10 +7,10 @@ function calculateMinCost() {
       let value = parseInt(arr.shift());
       let value1 = parseInt(arr.shift());
       let mainValue = value+value1;
-		finalValue = finalVlue + mainValue;
+		finalValue= finalValue + mainValue;
 		arr.push(mainValue);
     }
     let result = document.getElementById("result");
-result.innerText = finalValue;
-return finalValue;
+    result.innerText = finalValue;
+    return finalValue;
 }
